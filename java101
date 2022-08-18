@@ -1,0 +1,30 @@
+# manav-kasa-program-
+import java.util.Scanner;
+
+public class manav {
+    public static void main(String[] args) {
+
+        double armut, elma, muz, domates, patlican;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("armutun kilogramını giriniz:");
+        armut = inp.nextDouble();
+
+        System.out.println("elmanın kilogramını giriniz:");
+        elma = inp.nextDouble();
+
+        System.out.println("muzun kilogramını giriniz:");
+        muz = inp.nextDouble();
+
+        System.out.println("domatesin kilogramını giriniz:");
+        domates = inp.nextDouble();
+
+        System.out.println("patlıcanın kilogramını giriniz:");
+        patlican = inp.nextDouble();
+
+        double toplam = armut + elma + muz + domates + patlican;
+
+        System.out.println("toplam tutar:" + toplam);
+    }
+}
